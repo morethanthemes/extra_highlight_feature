@@ -1,0 +1,109 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: bf505618-fe04-47a3-a19b-bed903e53c2b
+  bundle: mt_highlight_feature
+  default_langcode: en
+  depends:
+    2a9143d1-9419-4d96-858a-dae399723080: file
+    d3ce65c5-215e-4be8-bb18-2e204d16c032: file
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Highlight Feature'
+  reusable:
+    -
+      value: true
+  revision_translation_affected:
+    -
+      value: true
+  field_mt_hf_feature:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 67f85bfe-e14d-43f7-b129-47cf17c5fae3
+          bundle: mt_highlight
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1747128163
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_mt_highlight_body:
+            -
+              value: '<p>Dicat eripuit accumsan ad est. Facer facilisi ius ei, ea has cetero argumentum, vel at fugit temporibus. Deseruisse definitionem his et, an has veri integre abhorreant, nam alii epicurei et.</p>'
+              format: content_format
+          field_mt_highlight_image:
+            -
+              entity: 2a9143d1-9419-4d96-858a-dae399723080
+              alt: 'highlight image'
+              title: 'highlight image'
+              width: 1350
+              height: 730
+          field_mt_highlight_image_fit:
+            -
+              value: mt-image-fit-cover
+          field_mt_highlight_link:
+            -
+              uri: 'internal:/contact'
+              title: 'Read more'
+              options: {  }
+          field_mt_highlight_title:
+            -
+              value: 'Nemore facilisi  mediocrem at duo'
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: a7fb7f46-def7-4fdb-9171-9ff2b4d0e9f3
+          bundle: mt_highlight
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1747128227
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_mt_highlight_body:
+            -
+              value: '<p>Ea eos essent ornatus percipit, mea an persecuti pertinacia, te suas semper per. Et qui debet veritus, ei qui utroque luptatum sadipscing. His dolorem habemus mandamus et.</p>'
+              format: content_format
+          field_mt_highlight_image:
+            -
+              entity: d3ce65c5-215e-4be8-bb18-2e204d16c032
+              alt: 'highlight image'
+              title: 'highlight image'
+              width: 1350
+              height: 730
+          field_mt_highlight_image_fit:
+            -
+              value: mt-image-fit-cover
+          field_mt_highlight_link:
+            -
+              uri: 'internal:/contact'
+              title: 'Read more'
+              options: {  }
+          field_mt_highlight_title:
+            -
+              value: 'Dolorem habemus  mandamus ponderum'

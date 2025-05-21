@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: d3ce65c5-215e-4be8-bb18-2e204d16c032
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: landing-page-1-highlight-feature-2.jpg
+  uri:
+    -
+      value: 'public://custom-blocks/landing-page-1-highlight-feature-2.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 86306
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1747128233

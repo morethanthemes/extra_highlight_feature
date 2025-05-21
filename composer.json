@@ -1,5 +1,5 @@
 {
-  "name": "drupal/extra_highlight_feature",
+  "name": "morethanthemes/extra_highlight_feature",
   "description": "Generates configuration and sample content for the Highlight Feature block.",
   "type": "drupal-recipe",
   "require": {
